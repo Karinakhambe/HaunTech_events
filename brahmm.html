@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/97a5d76f85.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title> BRAHMMM </title>
+   
+    <link rel="stylesheet" href="darna_mana_hai.css">
+
+</head>
+<body>
+    <section id="top">
+        <nav>
+          <div class="logos">
+            <img id="logo" src="logo copy.png">
+          </div>
+          <ul>
+            <li><a id ="icon" href="#"><i class="fa-sharp fa-solid fa-circle-play fa-2x"></i></a></li>
+        </ul>
+          <ul>
+              <li><a href="#"><i class="fa-sharp fa-solid fa-house fa-2x"></i></a></li>
+          </ul>
+      </nav>
+      <div id="first">
+  <h1 id="TITLE"> BRAHMM </h1>
+  <p id="sub"> SHARK TANK </p>
+      </div>
+      <audio id="mysong">
+        <source src="a-growing-hit-for-spooky-moments-130803.mp3" type="audio/mp3">
+      </audio>
+      <script>
+        var mysong = document.getElementById("mysong");
+        var icon = document.getElementById("icon");
+        mysong.volume = 0.2;
+        icon.onclick = function(){
+            if(mysong.paused){
+            mysong.play(); 
+          }
+          else{
+            mysong.pause();
+          }        
+        }
+      </script>
+      <section id="REGIS">
+        <div class="row">
+          <div class=" pricing-col ">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-body">
+                <h2>RULES & INFO:</h2>
+              </div>
+              <div class="carb">
+                <h6>Event Details:</h6>
+                <p>VENUE: ROOM 210 </p>
+                <p>TIME: 3:15 Onwards</p>
+                <p>
+                    Pitch  your startup ideas or sell anything eg. pen, paper or even any existing product which you found to be interesting.
+                    you will be judged on your marketing and convincing skills.
+                </p>
+              <p> Pitch time limit is 1-3 minutes.</p>
+              <p> You will be judged on your marketing and convincing skills.</p>
+              <p> Ppt is compulsory. </p>
+              <p>Maximum 7 slides compulsory</p>
+                <hr>
+                <h6>Entry Fee:</h6>
+                <p>NON MEMBER - Per Person: Rs 10/- </p>
+                <p>MEMBER - Per Person: Free</p>
+              </div>
+              <div class="card-bo">
+                <p></p>
+                <button class= "register">REGISTER!</button>
+              </div>
+          </div>
+          </div>
+        </div>
+          </section>
+    </section>
+</body>
+</html>

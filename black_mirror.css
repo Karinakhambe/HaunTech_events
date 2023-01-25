@@ -1,0 +1,136 @@
+/*Header*/
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: #000000;
+}
+nav{
+    height: 80px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 1px;   
+}
+.fa-{
+  margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    z-index: 2;
+}
+nav ul li{
+    margin: 0 5px;
+}
+#logo{
+  width: 80px;
+  height: 70px;
+  margin-left: 20px;
+}
+.logos{
+  padding-right: 10px;
+  padding-left: 10p;
+  margin: 0%;
+}
+nav ul li a{
+
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+   
+}
+nav ul li a:hover,
+nav ul li a.active{
+    color: #d21414;
+}
+/*title*/
+#first{
+  background: url('https://th.bing.com/th/id/R.f76507c1ebf640a9ccd849fab79d88ff?rik=7uNQHs9DnLu5ng&riu=http%3a%2f%2f25.media.tumblr.com%2fe75f7c4455c4950ca67ae3d92daafe15%2ftumblr_msia95SyQ31shptepo1_500.gif&ehk=pwVVdTIwsB%2b%2fjH1dWEhG%2fnySyGkb4xHEnEr3%2bmAOkaw%3d&risl=&pid=ImgRaw&r=0');
+  background-blend-mode:darken;
+  background-position: 0px;
+  background-size: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+#TITLE{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Lacquer';
+    color: rgb(228, 22, 22);
+    padding-top: 100px;
+}
+#sub{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lacquer';
+  color: rgb(239, 232, 218);
+  padding-top: 10px;
+}
+/*Cards*/
+#REGIS{
+  padding: 150px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.483)url('https://media.tenor.com/6PlHY7GNRYsAAAAS/halloween-ghost.gif');
+  background-size: 100%;
+  background-blend-mode:darken;
+}
+.REGIS-col{
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.card{
+  background-color: rgba(218, 126, 106, 0.794);
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+.carb{
+  background-color: rgba(0, 0, 0, 0.534);
+  padding-top: 10px;
+}
+h2{
+  color: #fff;
+}
+.card-bo{
+  padding: 0px 0px 0px 0px;
+}
+p{
+  color: aliceblue;
+}
+h6{
+  color: antiquewhite;
+}
+.register{
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  margin-bottom: 15px;
+  background: linear-gradient(90deg, #c80101, #fc5555);
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 40px;
+}
+@media (max-width: 940px) {
+  #TITLE{
+    font-size: 60px;
+  }
+  #REGIS{
+    padding: 20px;
+  }
+  #first{
+    background: url('back.gif');
+    background-blend-mode:darken;
+    background-position: 0px;
+    background-size: 180%;
+    height: 310px;
+    background-repeat: no-repeat;
+  }
+}
